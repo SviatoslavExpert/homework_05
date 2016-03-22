@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastre-se</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- HEADER -->
+	<div class="header">
+		<!-- MENU -->
+		<ul class="menu clearfix">
+			<li><a href="#">Ola! Entrar ou Cadastre-se</a>
+			</li>
+			<!--<li><a href="#"><img src="img/flag.png">Minhas Ofertas</a>
+			</li>
+			<li class="flag"><a href="#"><img src="img/flag.png"></a>
+			</li>-->
+			<li>
+				<div class="flag">
+					<a href="#"><img src="img/flag.png">
+					<span class="minhas">&nbsp;Minhas Ofertas</span></a>
+				</div>
+			</li>
+			<li class="vert"><a href="#">Ajuda</a>
+			</li>
+			<li><a href="#">Contato</a>
+			</li>
+			<li><a href="#">Forum</a>
+			</li>
+			<li><a href="#">Vender</a>
+			</li>
+			<li><a href="#">Meu YouBike</a>
+			</li>
+		</ul>
+	</div>
+	
+	<!-- FORM WRAPPER -->
+	<div class="form-wrapper">
+		<div class="form-title"><p>Cadastre-se</p>
+		</div>
+		<div class="transbox">
+			<form method="post" action="/"  onsubmit="return validateform()">
+				<a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="img/facebook.png"></a>
+				<div class="ou">
+				</div>
+				<div class="container">
+					<div class="box">
+						<input type="text" name="first_name" id="first_name" placeholder="First Name">
+					</div>
+					<div class="box">
+						<input type="text" name="last_name" id="last_name" placeholder="Last Name">
+					</div>
+					<div class="box">
+						<input type="email" name="email" id="email" placeholder="Email Address">
+					</div>
+					<div class="box">
+						<input type="password" name="password" id="password" placeholder="Choose Password">
+					</div>
+					<div class="box">
+						<input type="password" name="password" id="password" placeholder="Password Confirm">
+					</div>
+					<div class="check">
+						<input type="checkbox" id="updates"><label for="updates">&nbsp;Send my Youbike updates and tips</label>
+					</div>
+					<div class="submit">
+						<input type="submit" value="Create My Account">
+					</div>
+				</div>
+				<div class="text">By clicking the button above, you agree to the Terms 
+					of Service<br>Xiew our Privacy Policy.
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

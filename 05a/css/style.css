@@ -1,0 +1,219 @@
+/* подключение шрифтов */
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background: url("../img/background.png") no-repeat;
+	background-position: 0px 36px;
+	background-size: cover;
+	font: 'helvetica_neueregular', Tahoma, Arial;
+}
+
+
+/*  HEADER  */
+.header {
+    background: url("../img/blue.png");
+	clear: both;  /*  ???  */
+	height: 36px;
+	padding-right: 20px;
+}
+
+.menu li {
+	float: right;
+	display: inline-block;
+	padding: 10px 22px 0px; /* выставляет расстояния для li  */
+	/*border: 1px solid red;*/
+	height: 26px;
+}
+	
+.menu li a {
+	color: #fff;
+	font-family: 'helvetica_neueregular';
+	text-decoration: none;
+	font-size: 15px;
+	/*display: inline-block;*/
+}
+
+.menu li:hover{
+	background: #4EABDA;
+}
+
+.menu li span {
+	height: 26px;
+	vertical-align: 4px;
+}
+
+.line {
+	width: 1px;
+	height: 16px;
+	background: #4EABDA;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.minhas {
+	color: #fff;
+	font-family: 'helvetica_neueregular';
+	font-size: 15px;
+}
+
+.flag img {
+	vertical-align: top;
+}
+
+.flag:hover{
+	background: #4EABDA;
+	cursor: pointer;
+}
+
+.vert {
+	border-right: 1px solid #4EABDA;
+}
+
+.two {
+	display: inline-block;
+	vertical-align: 12px;
+}
+
+.active {
+	background: #4EABDA;
+}
+
+
+
+
+/*  FORM_WRAPPER  */
+.form-wrapper {
+	width: 560px;
+	margin: 214px auto;
+}
+
+/* form-tile */
+.form-title {
+	height: 62px;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.form-title p {
+	font-family: 'helvetica_neueregular';
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/*  form  */
+.transbox {
+	margin-top: 2px;
+	height: 550px;
+	padding-top: 35px;
+	text-align: center; /* выровнял по центру то, что внутри */
+	background-color: rgba(0,0,0,0.5);
+}
+
+.ou { 
+	width: 276px;
+	height: 20px;
+	margin: 20px auto 15px;
+    background: url("../img/line.png");
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #999999;
+	font-size: 16px;
+}
+
+.box {
+	margin: 0 auto;
+	display: block;
+}
+
+.container {
+	width: 300px;
+	margin: 0 auto;
+}	
+
+.box input {
+	margin-top: 13px;
+	padding-left: 20px;
+	background: #0F0F0F;
+	width: 275px;
+	height: 35px;
+    border-width: 0 0 1px 0;    
+	/*border-style: solid;*/
+	border-color: #494948;
+	font-size: 14px;
+	color: #fff;
+	-moz-placeholder: rgb(255, 255, 255);
+}
+
+.box input:focus { 
+	background-color: #1B5288;
+    outline: none !important;
+    /*border: 1px solid #689BCC;*/
+    box-shadow: 0px 0px 20px 0px rgba(104,155,204,0.9);
+}
+
+.check {
+	padding-top: 24px;
+	text-align: left;
+	line-height: 1.9px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+}
+
+.check label {
+	color: #fff;
+	font-family: 'helvetica_neueregular';
+	font-size: 14px;
+	font-weight: 200;
+	color: #cccccc;
+	vertical-align: 2px; /* Выравнивание текста относительно чекбокса */
+}
+
+.submit {
+	margin: 0px auto 25px auto;
+	padding-top: 25px;
+}
+
+.submit input {
+	background: #2E7BC4;
+	border: 0;
+	width: 150px;
+	height: 36px;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 14px;
+	background: rgb(125,185,232); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(125,185,232,1) 26%, rgba(46,122,196,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(125,185,232,1) 26%,rgba(46,122,196,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(125,185,232,1) 26%,rgba(46,122,196,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#2e7ac4',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+}
+
+.text{
+	font-family: 'helvetica_neueregular';
+	font-size: 12px;
+	color: #cccccc;
+}
+
+

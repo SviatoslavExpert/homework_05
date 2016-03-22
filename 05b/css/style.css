@@ -1,0 +1,75 @@
+.wrapper {
+	width: 500px;  
+	margin: 0 auto;
+}
+
+/* TABLE */
+
+table {
+	display: table;
+	width: 500px;
+}
+
+td {
+    border: 10px solid #333224;
+	height: 39px;
+	width: 50px;
+}
+
+#lines {
+	border: 12px solid #fff;
+}
+
+/* HEIGHTS */
+
+.height_1{
+	height: 48px;
+}
+
+.height_2, .height_3{
+	height: 130px;
+}
+
+.height_4, .height_5{
+	height: 60px;
+}
+
+.height_6{
+	height: 30px;
+}
+
+/* WIDTHS */
+
+.width_1{
+	width: 48px;
+}
+
+.width_2, .width_3{
+	width: 60px;
+}
+
+.width_4{
+	width: 130px;
+}
+
+.width_5, .width_6 {
+	width: 77px;
+}
+
+/* COLORS */
+
+.yellow {
+	background: url("../img/yellow.png");
+}
+
+.red {
+	background: url("../img/red.png");
+}
+
+.blue {
+	background: url("../img/blue.png");
+}
+
+.black {
+	background: url("../img/black.png");
+}
